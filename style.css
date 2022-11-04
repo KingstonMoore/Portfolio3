@@ -1,0 +1,63 @@
+h1 {
+    color: #a52a2a;
+    border: solid;
+    margin: 40px;
+}
+
+/* * {
+    border: solid;
+}*/
+
+.info{
+    background-color:#fa8072;
+    display: flex;
+    justify-content: space-between;
+}
+
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2, p{
+    text-align: center;
+}
+
+a:link{
+    color: burlywood;
+}
+
+a:visited{
+    color: orange;
+}
+
+.ps a{
+    margin-left: 25px;
+}
+
+.Trex{
+    position: relative;
+}
+
+.Trex p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+}
+
+.Trex:hover p{
+    opacity: 1;
+}
+
+.Trex:hover img{
+    width: 300px;
+    height: 300px;
+}
